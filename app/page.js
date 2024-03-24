@@ -1,22 +1,15 @@
-import React from 'react';
-import Header from './Header.js';
-import News from "./ToNews.js"
-
-
-function App() {
-  return (
+import Header from "./Header.js";
+import Search from "./search.js";
+import Grid from "./grid.js";
+import Footer from"./footer";
+const Page=()=>{
+    return(
     <>
-        <div>
-            <Header />
-            <News />
-        </div>    
+        <Header/>
+        <Search/>
+        <Grid/>
+        <Footer/>
     </>
-  )
+    )
 }
-
-export default App;
-
-
-
-
-
+export default Page;

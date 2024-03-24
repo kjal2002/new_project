@@ -1,22 +1,89 @@
-.search-bar{
-    height:60px;
-    width:267px;
+.header{
+    display:flex;
+    justify-content:center;
+    height:118px;
+   
 }
 
-.contanier-fluid{
-    color: var(--Dark, #3C3030);
+.heading{
+    color:#3C3030;
     font-family: "Iowan Old Style";
     font-size: 84px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%;
+    line-height: 140%; 
 }
 
-.col{
-    height:388px;
-    border:2px solid red;
-    margin-top:5%;
+.logo{
+    width: 60.291px;
+    height: 60.291px;
+    margin-top:30px
+}
+
+.border1{
+    border:1px solid black;
+}
+  
+.border2{
+    border:1px solid black;
+    margin-top:5px;
+ }
+ 
+ .search-bar{
+    height: 61px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    margin-top:89px;
+    margin-bottom:89px;
+ }
+ 
+ 
+ input{
+    border:1px solid black;
+    width: 267px;
+    height: 60px;
+    background-image:url('/Frame 15.png');
+    background-repeat:no-repeat;
+    background-position:left;
+    outline:none;
+    line-height:140%;
+    padding:8px 0px 8px 35px;
+ }  
+ 
+ button{
+    border:1px solid #E84848;
+    width: 60px;
+    height:60px;  
+    color:#ffffff;
+    background-color:#E84848;
+ }
+ .box{
+      height:300px;
+      width:408px;
+      border:1px solid black;
+      margin-bottom:10px;
+      
+ }
+ .horizontal-line {
+  border-top: 1px solid black; 
+  padding: 20px; 
+  text-align: center;
+  margin-bottom:50pox;
+}
+
+.news{
+    font-size:15px;
+    margin-top:30px;
+    margin-bottom:30px;
 }    
+.circle{
+width: 20.302px;
+height: 20.302px;
+
+}
+    
+    
     
 
-    
+
